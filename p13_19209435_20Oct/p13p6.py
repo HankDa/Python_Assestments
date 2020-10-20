@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Created on Tue Oct 20 12:46:21 2020
+Created on Tue Oct 20 19:32:43 2020
 
 @author: Hank.Da
 """
@@ -25,20 +25,22 @@ pesudocode :
             print number must greater than 0
 """
 
-
-def factorial(n):
-    
+def factorial(n,i):
+    print('Round:',i)
     if n == 0:
         return 1
     else:
-        return n*factorial(n-1)
+        i+=1
+        print('n:',n)
+        return n*factorial(n-1,i)
+    
     
 def main():
     
     num_inp = int(input("Enter a positive integer:"))
     
     if num_inp > 0:
-        print("factorial(%d) : %d" %(num_inp,factorial(num_inp)))
+        print("factorial(%d) : %d" %(num_inp,factorial(num_inp,0)))
     
     else:
         print("Enter number musr greater than 0")
