@@ -1,0 +1,21 @@
+Experiment with different values of x and y. For example: 
+
+(a) What happens when x and y are the same?  
+
+Ans: There are no any letters are printed, because x means the starting index and y-x means how many index will be sliced.
+
+(b) What happens when x is greater than y? 
+
+Ans: There are no any letters are printed, because x means the starting index and y-x means how many letter will be sliced, so if x greater than y the number of sliced letter will be negative and print nothing.
+
+(c) What happens when x is omitted? 
+
+Ans: x will be 0,  the default value.
+
+(d) What happens when y is omitted? 
+
+Ans: y will be the length of string, the default value.
+
+(e) What happens when both x and y are omitted?
+
+Ans: Both of x and y will be default value. 

@@ -1,0 +1,17 @@
+string :  experiementation
+letter 1  :  e
+letter 2  :  x
+letter 3  :  p
+letter 4  :  e
+letter 5  :  r
+letter 6  :  i
+letter 7  :  e
+letter 8  :  m
+letter 9  :  e
+letter 10  :  n
+letter 11  :  t
+letter 12  :  a
+letter 13  :  t
+letter 14  :  i
+letter 15  :  o
+letter 16  :  n
