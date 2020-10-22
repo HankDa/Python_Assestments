@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 22 15:56:00 2020
+
+@author: Hank.Da
+"""
+
+When the number over 3000 it shows following mesaage: 
+    RecursionError: maximum recursion depth exceeded in comparison
+    
+This could be solved by set recursive limit:
+
+    sys.setrecursionlimit(n)
+    print(sys.getrecursionlimit())

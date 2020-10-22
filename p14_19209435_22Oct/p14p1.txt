@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Oct 22 15:50:51 2020
+
+@author: Hank.Da
+"""
+
+non-recursive factorial run (1000)! , run time: 0.00047516822814941406 sec
+
+recursive factorial run (1000)! , run time: 0.001741170883178711 sec
